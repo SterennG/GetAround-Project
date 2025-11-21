@@ -61,7 +61,7 @@ if submit_btn:
     # 2. Envoi à l'API
     # Pour l'instant, je vise localhost:4000 car Docker tourne sur ma machine
     # Plus tard, je remplacerait ça par l'URL de Render
-    api_url = "http://localhost:4000/predict" 
+    api_url = "https://sterenn-getaround-api.hf.space"
 
     with st.spinner("Calcul du prix en cours..."):
         try:
