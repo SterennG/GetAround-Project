@@ -22,8 +22,8 @@ app = FastAPI(
     description=description,
     version="1.0",
     contact={
-        "name": "Votre Nom",
-        "url": "https://github.com/votre-compte/votre-repo",
+        "name": "SterennG",
+        "url": "https://github.com/SterennG/GetAround-Project",
     }
 )
 

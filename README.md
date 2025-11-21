@@ -45,13 +45,13 @@ GETAROUND/
 
 Si vous souhaitez cloner et exécuter ce projet sur votre machine :
 
-1. **Prérequis**
+***1. Prérequis***
 
 - Python 3.10 ou supérieur
 
 - Docker Desktop (optionnel, pour tester l'API en conteneur)
 
-2. **Installation**
+***2. Installation***
 
 Clonez le dépôt et installez les dépendances :
 
@@ -69,13 +69,13 @@ pip install -r pricing_prediction_API/requirements.txt
 pip install -r pricing_prediction_streamlit/requirements.txt
 ```
 
-3. **Lancer le Dashboard (Analyse des Retards)**
+***3. Lancer le Dashboard (Analyse des Retards)***
 
 ```
 streamlit run delay_dashboard_streamlit/streamlit_app.py
 ```
 
-4. **Lancer l'API et l'Interface de Prédiction**
+***4. Lancer l'API et l'Interface de Prédiction***
 
 Vous devez d'abord lancer l'API, puis l'interface.
 
