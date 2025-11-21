@@ -10,3 +10,4 @@ __pycache__/
 *.joblib
 !delay_dashboard_streamlit/get_around_delay_analysis.xlsx
 !pricing_prediction_API/model.joblib
+HF_API_DEPLOY/
