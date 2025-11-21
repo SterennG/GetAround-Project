@@ -13,8 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 5. Copier tout le reste du code (app.py, model.joblib...)
 COPY . .
 
-# 6. Exposer le port 4000
-EXPOSE 4000
+# 6. Exposer le port 7860
+EXPOSE 7860
 
 # 7. Lancer l'API
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "4000"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
