@@ -2,19 +2,19 @@
 
 Ce projet vise à optimiser l'activité de location de voitures GetAround à travers deux axes principaux :
 
-- **Analyse des retards** : Comprendre l'impact des retards au check-out sur les locations suivantes et proposer un seuil de délai minimum (threshold) optimal.
+- **Analyse des retards** : comprendre l'impact des retards au check-out sur les locations suivantes et proposer un seuil de délai minimum (threshold) optimal.
 
-- **Prédiction de prix** : Estimer le prix de location journalier idéal d'un véhicule en fonction de ses caractéristiques via un modèle de Machine Learning.
+- **Prédiction de prix** : estimer le prix de location journalier idéal d'un véhicule en fonction de ses caractéristiques via un modèle de Machine Learning.
 
 ## Démos en ligne (Déploiement)
 
 Les applications sont déployées et accessibles publiquement :
 
-📊 Dashboard - Analyse des Retards : [https://getaround-project-analysis-888.streamlit.app/](https://getaround-project-analysis-888.streamlit.app/)
+📊 Dashboard - Analyse des retards : [https://getaround-project-analysis-888.streamlit.app/](https://getaround-project-analysis-888.streamlit.app/)
 
-💰 Interface de Prédiction de Prix : [https://getaround-project-prediction-888.streamlit.app/](https://getaround-project-prediction-888.streamlit.app/)
+💰 Interface de Prédiction de prix : [https://getaround-project-prediction-888.streamlit.app/](https://getaround-project-prediction-888.streamlit.app/)
 
-⚙️ API de Prédiction (Documentation) : [https://sterenn-getaround-api.hf.space/docs](https://sterenn-getaround-api.hf.space/docs)
+⚙️ API de prédiction (documentation) : [https://sterenn-getaround-api.hf.space/docs](https://sterenn-getaround-api.hf.space/docs)
 
 ## Architecture du projet
 
@@ -69,13 +69,13 @@ pip install -r pricing_prediction_API/requirements.txt
 pip install -r pricing_prediction_streamlit/requirements.txt
 ```
 
-***3. Lancer le Dashboard (Analyse des Retards)***
+***3. Lancer le Dashboard (Analyse des retards)***
 
 ```
 streamlit run delay_dashboard_streamlit/streamlit_app.py
 ```
 
-***4. Lancer l'API et l'Interface de Prédiction***
+***4. Lancer l'API et l'interface de prédiction***
 
 Vous devez d'abord lancer l'API, puis l'interface.
 
@@ -102,7 +102,7 @@ streamlit run pricing_prediction_streamlit/streamlit_app.py
 
 ## Détails Techniques
 
-***Partie 1 : Analyse des Retards (Delay Analysis)***
+***Partie 1 : Analyse des retards (Delay Analysis)***
 
 - Données : Données Excel fournies par GetAround (get_around_delay_analysis.xlsx).
 
