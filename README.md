@@ -12,7 +12,7 @@ Les applications sont déployées et accessibles publiquement :
 
 📊 Dashboard - Analyse des retards : [https://getaround-project-analysis-888.streamlit.app/](https://getaround-project-analysis-888.streamlit.app/)
 
-💰 Interface de Prédiction de prix : [https://getaround-project-prediction-888.streamlit.app/](https://getaround-project-prediction-888.streamlit.app/)
+💰 Interface de prédiction de prix : [https://getaround-project-prediction-888.streamlit.app/](https://getaround-project-prediction-888.streamlit.app/)
 
 ⚙️ API de prédiction (documentation) : [https://sterenn-getaround-api.hf.space/docs](https://sterenn-getaround-api.hf.space/docs)
 
