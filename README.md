@@ -122,6 +122,6 @@ streamlit run pricing_prediction_streamlit/streamlit_app.py
 
     - Standardisation des variables numériques (StandardScaler).
 
-- Modèle : Random Forest Regressor (Sélectionné via GridSearchCV pour ses meilleures performances R² vs Ridge/Lasso).
+- Modèle final : XGBoost.
 
 - Déploiement : API FastAPI conteneurisée avec Docker, hébergée sur Hugging Face Spaces.
