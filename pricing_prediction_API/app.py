@@ -67,14 +67,14 @@ async def predict(car: CarFeatures):
     Prédiction du prix de location journalier.
     """
     # 1. Conversion des données reçues en DataFrame pandas
-    input_data = pd.DataFrame([car.dict()])
+    input_data = pd.DataFrame([car.model_dump()])
     
     # 2. Prédiction via le Pipeline (qui gère le OneHotEncoding et le Scaling tout seul)
     prediction = model.predict(input_data)
     
     # 3. Renvoyer la réponse au format JSON
     return {
-        "prediction": round(prediction[0], 2)
+        "prediction": round(float(prediction[0]), 2)
     }
 
 if __name__ == "__main__":
