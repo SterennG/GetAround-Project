@@ -125,3 +125,11 @@ streamlit run pricing_prediction_streamlit/streamlit_app.py
 - Modèle final : XGBoost.
 
 - Déploiement : API FastAPI conteneurisée avec Docker, hébergée sur Hugging Face Spaces.
+
+---
+Auteure : Stérenn GÉLÉOC 
+
+Projet réalisé dans le cadre de la certification CDSD (Concepteur Développeur en Science des Données) \
+Bloc 5 - Industrialisation d'un algorithme d'apprentissage automatique et automatisation des processus de décision
+
+JEDHA | Fullstack Data Science - Deployment Project | 2025
