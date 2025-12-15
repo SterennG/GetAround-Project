@@ -41,7 +41,6 @@ with st.form("predict_form"):
 # --- LOGIQUE D'APPEL API ---
 if submit_btn:
     # 1. Préparation des données (payload)
-    # Attention : les clés doivent être EXACTEMENT les mêmes que dans l'API (pydantic)
     data = {
         "model_key": model_key,
         "mileage": mileage,
@@ -59,8 +58,6 @@ if submit_btn:
     }
     
     # 2. Envoi à l'API
-    # Pour l'instant, je vise localhost:4000 car Docker tourne sur ma machine
-    # Plus tard, je remplacerait ça par l'URL de Render
     api_url = "https://sterenn-getaround-api.hf.space/predict"
 
     with st.spinner("Calcul du prix en cours..."):
